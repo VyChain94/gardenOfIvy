@@ -136,21 +136,25 @@
 
 		<!-- contact form -->
 		
-		<form action="mailto" method="post">
+		<form name="contact" action="POST" data-netlify="true">
 			<!-- structure the form items in a list format -->
 					<ul class="form" style="list-style:none;">
 						<li>
 							<!-- create a label for each data entry portion (first & last Name, email, message) -->
 							<!-- create input fields that contain id, and name. for text & email -->
-							<input type="text" id="name" name="userName" placeholder="Name:">
-							<input type="hidden" name="_next" value="https://gardenofivy.com/thanksyou.html">
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="userName" required>
+							<input type="hidden" name="_next" value="https://gardenofivy.com/thankyou.html">
 						</li>
 						<li>
 							<!-- input that only accepts email addresses -->
-							<input type="email" id="email" name="userEmail" placeholder="Email:">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="userEmail" required>
 						</li>
 						<li>
-							<textarea name="message" id="msg" placeholder="Message:" required></textarea>
+							<label for="message">Message</label>
+							<textarea name="message" id="msg" required></textarea>
+							<div data-netlify-recaptcha="true"></div>
 						</li>
 							<button class="formButton" type="submit">Send Message</button>
 					</ul>			
