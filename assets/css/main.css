@@ -2083,6 +2083,8 @@ input, select, textarea {
 /* Form */
 
 form {
+	padding-left: 15px;
+	padding-right: 15px;
 	margin: 0 0 2em 0;
 }
 	
