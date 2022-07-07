@@ -2082,83 +2082,16 @@ input, select, textarea {
 
 /* Form */
 
-	/* form {
-		margin: 0 auto;
-	} */
-
-	form{
-		/* <!-- center the form on the page --> */
-		width:480px;
-		/* <!-- give the form an outline --> */
-		 padding: 1.25em;
-		 /* border:1px solid red; */
-		border-radius: 2%;
-		margin: 0 auto;
-	}
+form {
+	margin: 0 0 2em 0;
+}
 	
-	/* .form{ */
-		/* list style styles the "bullets" */
-		/* list-style:none;
-		padding:0;
-		margin:0;
-	} */
 	/* form lists and all other lists?? */
 	form li + li{
 		margin-top:1em ;
 	}
 	
-	/* huh? */
-	/* uniform size & alignment */
-	label{
-		display:inline-block;
-		width:100px;
-	}
-	
-	input, textarea{
-		/* to make sure all text fields have the same font settings By default, textareas have a monospace font */
-		font-size: 1em;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	
-		/* uniform text field size */
-		width:450px;
-		/* huh? */
-		box-sizing:border-box;
-	
-		/* form field borders */
-		border:1px solid #128000;
-		border-radius: 2%;
-	}
-	
-	input:focus, input:hover, textarea:focus, textarea:hover{
-		border-color: yellowgreen;
-	}
-	
-	textarea, input{
-		/* align text fields with their labels */
-		vertical-align:top;
-	}
-	
-	textarea{
-		/* provide space for text */
-		height:7em;
-	}
-	
-	.formButton{
-		/* align buttons with the text fields/ same size as the label elements */
-		 margin-left:125px;
-		 margin:2em auto 0 125px;
-	
-	}
-	
-	/* button{ */
-		/* this extra margin represent roughly the same space as the space between the labels and their text fields */
-		/* dont need this unless centering button */
-		/* margin-left:.25em;
-		margin-top: 2em; */
-		/* margin:2em auto; */
-	/* } */
-
-	/* label {
+	label {
 		color: #555;
 		display: block;
 		font-size: 0.9em;
@@ -2334,8 +2267,7 @@ input, select, textarea {
 	:-ms-input-placeholder {
 		color: #999 !important;
 		opacity: 1.0;
-	} */
-
+	}
 /* Box */
 
 	.box {
@@ -2670,7 +2602,7 @@ input, select, textarea {
 	ul.major-icons {
 		list-style: none;
 		padding-left: 0;
-		display: flex;
+		/* display: flex; */
 		align-items: center;
 		justify-content: space-between;
 	}
