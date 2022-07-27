@@ -3106,18 +3106,6 @@ form {
 		
 	}
 
-		body.is-preload #header .inner .actions {
-			-moz-transform: translateY(30em);
-			-webkit-transform: translateY(30em);
-			-ms-transform: translateY(30em);
-			transform: translateY(30em);
-			opacity: 0;
-		}
-
-	body.is-preload #header:after {
-		
-	}
-
 /* Footer */
 
 	#footer {
