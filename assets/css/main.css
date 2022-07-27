@@ -3103,7 +3103,7 @@ form {
 		-webkit-transform: scale(1.05);
 		-ms-transform: scale(1.05);
 		transform: scale(1.05);
-		opacity: 0;
+		
 	}
 
 		body.is-preload #header .inner .actions {
@@ -3115,7 +3115,7 @@ form {
 		}
 
 	body.is-preload #header:after {
-		opacity: 1;
+		
 	}
 
 /* Footer */
