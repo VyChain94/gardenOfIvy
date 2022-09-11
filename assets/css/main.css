@@ -9,6 +9,15 @@
 
 /* I ADDED */
 
+.button{
+	display: flex;
+	list-style: none;
+}
+
+.scrolly{}
+
+.scrolly2{}
+
 #header .icon.regular{
 	color: white;
 }
@@ -3039,7 +3048,7 @@ form {
 				padding-left: 0;
 			}
 
-			#header .actions:after {
+			/* #header .actions:after {
 				background: #ffffff;
 				content: '';
 				height: 25vh;
@@ -3047,7 +3056,7 @@ form {
 				position: absolute;
 				top: 100%;
 				width: 1px;
-			}
+			} */
 
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
@@ -3111,7 +3120,7 @@ form {
 			-webkit-transform: translateY(30em);
 			-ms-transform: translateY(30em);
 			transform: translateY(30em); */
-			opacity: 0;
+			
 		}
 
 /* Footer */
