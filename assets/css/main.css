@@ -9,6 +9,7 @@
 
 /* I ADDED */
 
+
 .scrolly{}
 
 .scrolly2{}
@@ -3592,3 +3593,7 @@ form {
 			margin: auto;
 		
 		}}
+		small{
+			font-size: .85em;
+			font-weight: 500;
+		}
