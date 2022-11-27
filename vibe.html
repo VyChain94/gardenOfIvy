@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" />
+        <!-- ICONS -->
+        <script src="https://kit.fontawesome.com/3cca631c1a.js" crossorigin="anonymous"></script>
+		<!-- FONT -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Ivy's logo">
+        </div>
+        <button class="navToggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="navList">
+                <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
+                <li class="navItem"><a href="index.html#services" class="navLink">My Services</a></li>
+                <li class="navItem"><a href="index.html#about" class="navLink">About me</a></li>
+                <li class="navItem"><a href="index.html#work" class="navLink">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+    <section class="intro">
+        <h1 class="sectionTitle sectionTitle--intro">
+            <strong>Vibe Check</strong> Survey
+        </h1>
+        <p class="sectionSubtitle sectionSubtitle--intro">Dynamic React Survey</p>
+        <a href="https://moviesnackshack.netlify.app/" target="_blank" class="introImg">
+            <img src="images/vibe2.png" alt="survey thumbnail">
+        </a>
+    </section>
+
+    <main class="portfolioItemIndividual">
+    <strong>
+        A dynamic survey application that inquires about and responds to a user's emotional vibration based on the user's input.
+    </strong>
+
+        <div class="images">
+            <div class="img1">
+                <img src="images/vibecode.png" alt="code snippet 1">
+            </div>
+        </div>
+        <strong>            
+            <h3>Problem to solve</h3>
+                Everybody experiences self-doubt, loneliness, and the need for validation from time to time. 
+                Some people journal for this purpose and others don’t due to not feeling comfortable having a journal, 
+                or even journaling in general.
+            
+            <h3>Solution</h3>
+                This application allows users to quickly journal on the go, possibly without feeling self-conscious 
+                about it as well, by offering a simple prompting survey to fill out that will allow them to easily 
+                track their previous logs and continue on with their day after recieving a heart warming and 
+                acknowledging message upon submission of their form.
+            
+            <h3>Progress</h3>
+                This is an improvement to a previous static survey that I developed, now that I have 
+                stronger programming skills I have decided to make this a dynamic application.
+                This is also an ongoing project, and I intend to add authentication with protected routed 
+                for authorization, as well as a database that will allow the user to also save and log their 
+                previous experiences to keep records of over time.
+            
+            <h3>How to use</h3>
+            Fill in the input fields on the form and click the submit button, 
+            this will display a modal that will respond to the information that you have just filled out.
+        </strong>
+    </main>
+     <!-- Footer -->
+     <footer>
+        <a href="mailto:ivyetigsjr6@protonmail.com" class="footerLink">ivyetigsjr6@protonmail.com</a>
+        <ul class="socialList">
+            <li class="socialListItem"><a class="socialClassLink" href="https://www.linkedin.com/in/ivy-tigs-jr/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://github.com/VyChain94"><i class="fa-brands fa-github"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://codepen.io/vychain94"><i class="fa-brands fa-codepen"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://twitter.com/MrTigsJr"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,189 +1,150 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Ivy Tigs Jr Delivers Solutions to Enhance Your Business</title>
-		<meta name="description" 
+<head>
+    <title>Ivy Tigs Jr Portfolio Website</title>
+        <meta name="description" 
 		content="When it comes to your business, you can trust Ivy Tigs Jr to enhance your online presence and bring your vision to life - on time, on budget, guaranteed.">
 		<meta http-equiv="author"
 		content="Ivy Tigs Jr">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://kit.fontawesome.com/3cca631c1a.js" crossorigin="anonymous"></script>
-		<!-- FONT -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,500&display=swap" rel="stylesheet">
+		<!-- STYLING -->
+		<link rel="stylesheet" href="style.css" />
+        <!-- ICONS -->
+        <script src="https://kit.fontawesome.com/3cca631c1a.js" crossorigin="anonymous"></script>
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>    
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Ivy's logo">
+        </div>
+        <button class="navToggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="navList">
+                <li class="navItem"><a href="#home" class="navLink">Home</a></li>
+                <li class="navItem"><a href="#services" class="navLink">My Services</a></li>
+                <li class="navItem"><a href="#about" class="navLink">About me</a></li>
+                <li class="navItem"><a href="#work" class="navLink">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+    <section class="intro" id="home">
+        <h1 class="sectionTitle sectionTitle--intro">
+            Hi, I am <strong>Ivy Tigs Jr</strong>
+        </h1>
+        <p class="sectionSubtitle sectionSubtitle--intro">Front-End Developer</p>
+        <img src="images/selfie.png" alt="headshot of Ivy" class="introImg">
+    </section>
+
+    <!-- SERVICES -->
+    <section class="myServices" id="services">
+        <h2 class="sectionTitle sectionTitle--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design & Development</h3>
+                <p>I make creative design decisions so that products feel custom built for the target audience and are easy-to-navigate, by
+					building fully functional mobile-ready, responsive websites and applications.</p>
+            </div>
+            <div class="service">
+                <h3>JavaScript & React</h3>
+                <p>I utilize the JavaScript programming language and it's React Library to access, store, and manipulate data to build UI based code through maintainable function components. </p>
+            </div>
+			<div class="service">
+                <h3>Consultation</h3>
+                <p>Initiating conversations to pinpoint what your project is all about. And offering my knowledge of technical resources.</p>
+            </div>
+			<!--service-->
+        </div> <!--services-->
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="aboutMe" id="about">
+        <h2 class="sectionTitle sectionTitle--about">Who I am</h2>
+        <p class="sectionSubtitle sectionSubtitle--about">Front-End Developer based out of RI</p>
+
+        <div class="aboutMeBody">
+            <p></p>
+            <p>I'm a self taught Developer and creative problem solver who enjoys connecting with people to create accessible and unique websites and web applications. From prototyping to implementation and maintenance. I have the skills to provide you with the latest technology, to assist in optimizing your online presence and deliver unique results through a commitment to learning and development.</p>
+        </div>
+
+        <img src="images/selfie.png" alt="Ivy looking into the distance" class="aboutMeImg">
+    </section>
+
+    <!-- My Work -->
+    <section class="myWork" id="work">
+        <h2 class="sectionTitle">My work</h2>
+        <p class="sectionSubtitle">A selection of my range of work</p>
+
+    <div class="portfolio">
+    <!-- Portfolio Item 1 -->
+        <a href="dao.html" class="portfolioItem">
+            <img src="images/DEX.png" alt="decentralized exchange thumbnail" class="portfolioImg">
+        </a>
+    <!-- Portfolio Item 2 -->
+        <a href="mentor.html" class="portfolioItem">
+            <img src="images/IW.png" alt="company website thumbnail" class="portfolioImg">
+        </a>
+    <!-- Portfolio Item 3 -->
+        <a href="clips.html" class="portfolioItem">
+            <img src="images/body-bg.jpg" alt="movie clip database thumbnail" class="portfolioImg">
+        </a>    
+    <!-- Portfolio Item 4 -->    
+        <a href="vibe.html" class="portfolioItem">
+            <img src="images/vibe1.png" alt="survey thumbnail" class="portfolioImg">
+        </a>        
+    </div>
+    </section>
+
+    <!-- Contact -->
+	<section class="contact">
+		<header class="major">
+			<h2>Let's connect!</h2>
+		</header>
+			<p>
+                I am currently accepting new clients and interesting project opportunities, 
+                Whether you'd like to discuss new ideas or have a project for me, 
+                send an email and I'll get back to you soon.
+            </p>
+	</section>
 		
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<span class="icon regular fa-smile fa-3x"></span>
-					<h1>Hi, I'm <strong>Ivy Tigs Jr</strong> <br>
-					your next Web Developer</h1>
-					<p>Please take a look around, see what I've been up to,<br>
-						and let's see what we can build together.</p>
-						<ul class="actions special">
-							<!-- <li><a href="#hero" class="button scrolly">I need a site</a></li> -->
-							<!-- <a href="\Tigs_Dev_Resume" download="Tigs_Dev_Resume">Download</a>
-							<a href="/Resume" download="ShawnCharles-Resume" class="button primary icon solid fa-download">Resume</a> -->
-							
-							<!-- <li><a href="dev.html" class="button scrolly2">I need a engineer</a></li> -->
-						</ul>
-					</div>
-				</section>
-
-		<!-- One -->
-			<section id="hero" class="main style1">
-				<div class="container">
-					<div class="row gtr-150">
-							<header class="major">
-								<h2>Is your web presence <br> working for you?</h2>
-							</header>
-							<p>If someone needs what you provide, will your website draw them in? A reliable web presence is no longer a “bonus” or “nice to have” - it is essential.</p>
-							<p>It is my privilege to offer a unique online presence to small businesses and individuals alike. Whether that be creating a website for you from the ground up, or building on top of your already existing platform. How can I help you today?</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- Two a -->
-			<section id="twoa" class="main style2a">
-				<div class="container">
-					<header class="major">
-					<h2>My latest work</h2>
-				<div class="row gtr-150">
-				<div class="col-6a col-12a-medium">
-				<!-- img width here is 100% because i set column widths to 33% -->
-					<img style="width:100%;" src="images/DEX.png" alt="thumbnail of DAO website">
-					<h3>Up and coming DAO</h3>
-					<small>JavaScript, JQuery, web3.js, 0x API, Bootstrap</small>
-					<hr>
-					<p>Website & Decentralized Exchange utilizing the 0x protocol API</p>
-					<a href="https://hooddex.netlify.app" target="_blank"><button>View</button></a>
-				</div>
-				<div class="col-6a col-12a-medium">
-					<img style="width:100%;" src="images/IW.png" alt="thumbnail of life coach website">
-					<h3>Coach's landing page</h3>
-					<small>JavaScript & Bootstrap</small>
-					<hr>
-					<p>Landing page for a Life Coach looking to build out their brand.</p>
-					<a href="https://inherentworth.netlify.app" target="_blank"><button>View</button></a>
-				</div>
-				<div class="col-6a col-12a-medium">
-						<img style="width:100%;" src="images/body-bg.jpg" alt="thumbnail of movie website">
-						<h3>Movie viewing database</h3>
-						<small>JavaScript & Bootstrap</small>
-						<hr>
-						<p>Search and watch movie clips utilizing the movie database.</p>
-						<a href="https://moviesnackshack.netlify.app/" target="_blank"><button>View</button></a>
-				</div>
-				</div>
-				</div>
-			</section>
-			
-
-		<!-- Two -->
-			<section id="two" class="main style2">
-				<div class="container">
-					<div class="row gtr-151">
-						<div class="col-6 col-12-medium">
-							<ul class="major-icons">
-								<li><span class="icon solid style1 major fa-thumbtack fa-3x"></span></li>
-								<li><span class="icon solid style2 major fa-project-diagram fa-3x"></span></li>
-								<li><span class="icon solid style3 major fa-code fa-3x"></span></li>
-								<li><span class="icon solid style4 major fa-rocket fa-3x"></span></li>
-							</ul>
-						</div>
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>My Services</h2>
-							</header>
-							<p>I offer accessible & unique websites and apps for individuals and businesses alike. From prototyping to implementation and maintenance, I have the skills to provide you with the latest technology to assist in optimizing your online presence -<br> here is how i deliver success: </p>
-							<ol>
-								<li> <strong>Consultaion</strong> - It all starts with a conversation where we'll pinpoint what this project is all about.</li>
-								<li> <strong>Design Thinking</strong> - Creative design decisions so that products feel custom built for the target audience and is easy-to-navigate.</li>
-								<li> <strong>Prototyping</strong> - Presentation of detailed prototypes. </li>
-								<li> <strong>Web Develpoment</strong> - Web Development and design from prototyping, to fully functional websites and apps.</li>
-								<li> <strong>Launch & Support</strong> - Peace of mind is delivered with the final project in the form of available 24/7 support.</li>
-							</ol>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<div class="faceCard">
-							<img src="images/selfie.png" alt="headshot of Ivy Tigs Jr, website author">
-						<h2>I'm a Web Developer based in Rhode Island</h2>
-					</header>
-					<p>When I'm not coding, you can find me outside like the weather. Either hiking or pounding the pavement on my Concrete Boat (that's my bike's name) or reading all the books.. still outside</p>
-				</div>
-			</div>
-		</section>
-
-		<!-- Four -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Let's connect!</h2>
-					</header>
-					<p style="text-align: left;">I am currently accepting new clients and interesting project opportunities, Whether you'd like to discuss new ideas or have a project for me, simply fill out this form and I'll get back to you soon.</p>
-					<p style="text-align: left;">Email me at: <strong>ivyetigsjr6@protonmail.com</strong> Or send a quick message here</p>
-				</div>
-			</section>
-
-		<!-- contact form -->
-		
-		<form name="contact" action="/pages/thankyou.html" method="POST" data-netlify="true">
-			<!-- structure the form items in a list format -->
+		<!-- <form name="contact" action="/pages/thankyou.html" method="POST" data-netlify="true">
 					<ul class="form" style="list-style:none;">
 						<li>
 							<label for="name">Name:</label>
-							<input type="text" id="name" name="userName" required>
+							<input type="text" id="name" name="userName" placeholder="Name" required>
 						</li>
 						<li>
 							<label for="email">Email:</label>
-							<input type="email" id="email" name="userEmail" required>
+							<input type="email" id="email" name="userEmail" placeholder="Email" required>
 						</li>
 						<li>
 							<label for="message">Message:</label>
-							<textarea name="message" id="message" required></textarea>
+							<textarea name="message" id="message" placeholder="Message" required></textarea>
 						</li>
 					</ul>
 							<button class="formButton" type="submit">Send Message</button>
 								
-				</form>
+				</form> -->
 
-		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="https://twitter.com/MrTigsJr" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.facebook.com/ivy.tigs/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/ivy_the_architecht/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/VyChain94" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<!-- <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> -->
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Ivy Tigs Jr</li>
-				</ul>
-			</section>
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:ivyetigsjr6@protonmail.com" class="footerLink">ivyetigsjr6@protonmail.com</a>
+        <ul class="socialList">
+            <li class="socialListItem"><a class="socialClassLink" href="https://www.linkedin.com/in/ivy-tigs-jr/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://github.com/VyChain94"><i class="fa-brands fa-github"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://codepen.io/vychain94"><i class="fa-brands fa-codepen"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://twitter.com/MrTigsJr"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="socialListItem"><a class="socialClassLink" href="https://www.facebook.com/ivy.tigs/"><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+    </footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<script src="index.js"></script>
+</body>
 </html>
